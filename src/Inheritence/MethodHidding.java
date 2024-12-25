@@ -29,13 +29,14 @@ public class MethodHidding {
     }
 }
 class parent{
-    void display() {
+    static void display() {
         System.out.println("Static method in Parent");
     }
 }
 class Child extends parent {
-    void display() {
+    static void display() {
         System.out.println("Static method in Child");
     }
+
 }
 
